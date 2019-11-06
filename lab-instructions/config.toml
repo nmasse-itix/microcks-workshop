@@ -1,0 +1,41 @@
+baseURL = "/"
+languageCode = "en-us"
+theme = "learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[blackfriday]
+hrefTargetBlank = true
+
+[params]
+showVisitedLinks = true
+disableBreadcrumb = false
+disableNextPrev = false
+themeVariant = "red"
+
+# you can comment out the editURL parameter once the workshop has been proofread
+editURL = "https://github.com/nmasse-itix/microcks-workshop/edit/master/lab-instructions/content/"
+
+# OpenShift Console URL (scheme, hostname and port)
+openshift_console_url="https://openshift.itix.fr:8443"
+
+# Microcks installation (scheme, hostname and port)
+microcks_url="https://microcks.app.itix.fr"
+
+# Microcks client created by default in the "microcks" realm of Keycloak
+microcks_client_id="microcks-serviceaccount"
+microcks_client_secret="30975a1b-eada-4379-89e8-99c8619462c6"
+
+# Apicurio installation (scheme, hostname and port)
+apicurio_studio_url="https://apicurio-studio.app.itix.fr"
+
+# On-site GitHub installation (scheme, hostname and port)
+github_url="https://github.com/"
+
+# Petstore API implementation, deployed twice as explained in api-backend/nodejs/README.md
+petstore_api="http://petstore-api.app.itix.fr"
+petstore_api_fixed="http://petstore-api-fixed.app.itix.fr"
+
+# The customer name (free choice)
+company = "Red Hat"
