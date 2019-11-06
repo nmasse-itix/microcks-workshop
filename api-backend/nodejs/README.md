@@ -42,29 +42,3 @@ curl -XPUT http://localhost:8080/pets/3 -H 'Content-Type: application/json' -d '
 ```sh
 curl -XDELETE http://localhost:8080/pets/3
 ```
-
-## Reset
-
-Remove the Jenkins pipeline:
-
-```sh
-oc delete -n petstore-api bc/petstore-pipeline
-```
-
-Remove the 3scale services:
-
-```sh
-ansible-playbook cleanup/cleanup.yml -e admin_portal_hostname=[TENANT]-admin.3scale.net -e threescale_token=[REDACTED]
-```
-
-Go to the [Apicurio Studio](https://apicurio-studio.app.itix.fr/apis) and remove the **Petstore** service.
-
-Go to the Microcks console and remove the **Petstore** service.
-
-Remove the OpenAPI Specification file from this repository:
-
-```sh
-git rm openapi-spec.yaml
-git commit -m 'reset the demo'
-git push
-```
