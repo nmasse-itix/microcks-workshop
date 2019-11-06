@@ -1,5 +1,5 @@
 ---
-title: "Exercise 3"
+title: "Exercise: re-run the tests"
 weight: 3
 ---
 

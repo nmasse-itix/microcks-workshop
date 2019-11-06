@@ -1,11 +1,11 @@
 +++
 title = "Conclusion"
-weight = 15
+weight = 7
 chapter = true
-pre = "<b>15. </b>"
+pre = "<b>7. </b>"
 +++
 
-### Chapter 15
+### Chapter 7
 
 # Conclusion
 

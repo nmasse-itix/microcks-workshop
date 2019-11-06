@@ -1,5 +1,5 @@
 +++
-title = "Publish"
+title = "Automate"
 weight = 6
 chapter = true
 pre = "<b>6. </b>"
@@ -7,6 +7,6 @@ pre = "<b>6. </b>"
 
 ### Chapter 6
 
-# Publish
+# Automate
 
 Because ACME adheres to the Infrastructure-as-Code and API-Management-as-Code principles, everything needs to be versioned in a GIT repository and automated.

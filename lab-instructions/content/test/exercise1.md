@@ -1,5 +1,5 @@
 ---
-title: "Exercise 1"
+title: "Exercise: run the test suite"
 weight: 1
 ---
 

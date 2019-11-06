@@ -1,5 +1,5 @@
 ---
-title: "Exercise 2"
+title: "Exercise: extend test coverage"
 weight: 2
 ---
 
