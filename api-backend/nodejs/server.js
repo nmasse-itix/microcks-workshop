@@ -63,7 +63,7 @@ router.post("/pets",function(req,res){
 router.delete("/pets/:id",function(req,res){
   var id = req.params.id;
   if (! (id in pets)) {
-    return error(res, 404, util.format("No such pet with id '%s' !", id));
+    return error(res, 200, util.format("No such pet with id '%s' !", id));
   }
 
   var pet = pets[id];
