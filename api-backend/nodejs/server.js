@@ -114,7 +114,7 @@ var server = app.listen(port,function(){
 
 function error(res, code, message) {
   var response = {
-    status: code,
+    code: code,
     message: message
   };
   return res.status(code)
