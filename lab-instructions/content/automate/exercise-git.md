@@ -8,7 +8,7 @@ weight: 1
 Because ACME adheres to the Infrastructure-as-Code and API-Management-as-Code principles, everything needs to be versioned in a GIT repository.
 In this exercise, you will create a GIT repository and publish your API contract.
 
-- Go to your [favourite GIT provider]({{< param github_url >}})
+- Go to your [favourite GIT provider]({{< param github_url >}}/new)
 - Create a repository named `petstore-api`
 - **Hint:** You can initialize it with a README and a license file when proposed by your GIT provider
 - Open the [APICurio Studio]({{< param apicurio_studio_url >}}/apis)

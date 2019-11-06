@@ -17,9 +17,6 @@ themeVariant = "red"
 # you can comment out the editURL parameter once the workshop has been proofread
 editURL = "https://github.com/nmasse-itix/microcks-workshop/edit/master/lab-instructions/content/"
 
-# OpenShift Console URL (scheme, hostname and port)
-openshift_console_url="https://openshift.itix.fr:8443"
-
 # Microcks installation (scheme, hostname and port)
 microcks_url="https://microcks.app.itix.fr"
 
@@ -31,7 +28,7 @@ microcks_client_secret="30975a1b-eada-4379-89e8-99c8619462c6"
 apicurio_studio_url="https://apicurio-studio.app.itix.fr"
 
 # On-site GitHub installation (scheme, hostname and port)
-github_url="https://github.com/"
+github_url="https://github.com"
 
 # Petstore API implementation, deployed twice as explained in api-backend/nodejs/README.md
 petstore_api="http://petstore-api.app.itix.fr"
