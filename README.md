@@ -9,8 +9,8 @@
 
 ## Setup
 
-- Deploy the [API Backend](api-backend/nodejs/)
 - Fork this repo in your GitHub platform
+- Deploy the [API Backend](api-backend/nodejs/)
 - Update the URLs to match your environments in [config.toml](lab-instructions/config.toml)
 - Deploy the workshop instructions in your environment:
 
