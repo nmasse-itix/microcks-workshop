@@ -15,8 +15,8 @@ tar -C /tmp -xf "/tmp/${hugo_bin_name}" hugo
 
 # Build the website
 mv /tmp/src/ /tmp/git
-/tmp/hugo -s /tmp/git
-ln -s /tmp/git/public /tmp/src
+/tmp/hugo -s /tmp/git/lab-instructions/
+ln -s /tmp/git/lab-instructions/public /tmp/src
 
 # Call the default S2I assemble script
 exec /usr/libexec/s2i/assemble
