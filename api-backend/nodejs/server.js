@@ -62,8 +62,14 @@ router.post("/pets",function(req,res){
 // Delete a pet
 router.delete("/pets/:id",function(req,res){
   var id = req.params.id;
+
+  if (id == "0") {
+    // Tombstone: pet zero does not exists, can be deleted but is never completely gone...
+    return success(res, 200, {"id":0,"name":"Dummy","tag":"dumb"});
+  }
+
   if (! (id in pets)) {
-    return error(res, 200, util.format("No such pet with id '%s' !", id));
+    return error(res, 404, util.format("No such pet with id '%s' !", id));
   }
 
   var pet = pets[id];
