@@ -1,11 +1,11 @@
 +++
 title = "Iterate"
-weight = 5
+weight = 4
 chapter = true
-pre = "<b>5. </b>"
+pre = "<b>4. </b>"
 +++
 
-### Chapter 5
+### Chapter 4
 
 # Iterate
 
